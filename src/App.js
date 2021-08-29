@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import ContextApi from './ContextApi/ContextApi';
+import KeepApps from './KeepApp/KeepApps';
+import UseEffect from './UseEffect/UseEffect';
+import Challenge from './UseEffect/Challenge';
+import Pokemon from './PokemonApi/Pokemon';
+import RectAngle from './Assignment3/RectAngle';
+import Router from './Router/Router';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <KeepApps/>
+    </>
   );
 }
 
